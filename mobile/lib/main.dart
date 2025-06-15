@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'driver_screen.dart';
-import 'passenger_screen.dart';
+import 'screens/passenger_screen.dart';
 
 void main() {
   runApp(const MyApp());
