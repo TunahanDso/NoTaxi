@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import '../models/ride_request.dart';
 
-class PassengerScreen extends StatefulWidget {
-  const PassengerScreen({super.key});
+class DriverScreen extends StatefulWidget {
+  const DriverScreen({super.key});
 
   @override
-  State<PassengerScreen> createState() => _PassengerScreenState();
+  State<DriverScreen> createState() => _DriverScreenState();
 }
 
-class _PassengerScreenState extends State<PassengerScreen> {
+class _DriverScreenState extends State<DriverScreen> {
   final TextEditingController _passengerController = TextEditingController();
   final TextEditingController _driverController = TextEditingController();
   final TextEditingController _originController = TextEditingController();
@@ -51,7 +51,7 @@ class _PassengerScreenState extends State<PassengerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Passenger Screen'),
+        title: const Text('Driver Screen'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
