@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.env
+
+# Node server
+server/node_modules/
+server/package-lock.json
