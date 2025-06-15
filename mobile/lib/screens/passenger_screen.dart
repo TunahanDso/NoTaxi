@@ -7,12 +7,11 @@ class PassengerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Yolculuk Arama Ekranı'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {},
-          child: const Text('Ara'),
+
         ),
       ),
     );
